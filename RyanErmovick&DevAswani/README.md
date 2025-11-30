@@ -20,7 +20,7 @@ To worth with this data, we used kafka to collect streams of data from both API 
 
 ## Analysis
 
-Offer a brief analysis of the data with your findings. Keep it to one brief, clear, and meaningful paragraph.
+Our analysis revealed several meaningful dynamics in WMATA’s bus operations. By aggregating tens of thousands of position records, we observed that only a small subset of routes such as A58, C63, and F60 dominated the live feed, suggesting that specific corridors generate disproportionately higher operational activity. A spatial density heatmap showed that WMATA bus traffic concentrates heavily along a few high-volume urban corridors, forming distinct geographic hot zones of movement rather than evenly distributed coverage. Using the delay feeds, we also compared average delays across routes and found clear differences: some routes consistently experienced higher delays than others, which indicates that certain lines may be more sensitive to congestion, scheduling pressure, or operational bottlenecks. Combining streaming positions with delay updates shows that real-time bus data is far from uniform, and meaningful patterns only emerge after processing large volumes of streaming records. These patterns reveal where the WMATA network experiences the greatest stress and variability.
 
 
 ## Plot / Visualization
@@ -30,3 +30,4 @@ Include at least one compelling plot or visualization of your work. Add images i
 ## GitHub Repository
 
 https://github.com/
+
