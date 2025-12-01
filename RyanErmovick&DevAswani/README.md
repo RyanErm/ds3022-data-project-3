@@ -25,7 +25,7 @@ Our analysis revealed several meaningful dynamics in WMATA’s bus operations. B
 
 ## Plot / Visualization
 
-Include at least one compelling plot or visualization of your work. Add images in your subdirectory and then display them using markdown in your README.md file.
+![Heatmap of Bus Locations](heatmap.png)
 
 ## GitHub Repository
 
