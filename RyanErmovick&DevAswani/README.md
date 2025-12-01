@@ -9,7 +9,7 @@ What data source did you work with?
 
 The data source we worked with was multiple API's from the Washington Metropolitan Area Transit Authority (WMATA). The first API we pulled information from was the Bus update API, which gave information on delays, status, etc.. The second API that we pulled information from was the Bus position API, which gave position information (latitude and longitude), speed, and more. To access this data source an account is needed (free). 
 
-To collect a sufficient amount of data, the producer was ran for 24 minutes which generated over 60,000 records. 
+To collect a sufficient amount of data, the producer was ran for 24 minutes which generated over 60,000 records. The APIs can be found here: https://developer.wmata.com/ 
 
 
 ## Challenges / Obstacles
@@ -41,6 +41,7 @@ This visualization takes in user input to compare the average delay for two diff
 ## GitHub Repository
 
 https://github.com/
+
 
 
 
